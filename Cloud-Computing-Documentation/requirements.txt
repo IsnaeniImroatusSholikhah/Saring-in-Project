@@ -1,0 +1,10 @@
+requests
+beautifulsoup4
+gensim
+tensorflow
+transformers
+Flask
+numpy
+googlesearch-python
+lxml
+gunicorn
