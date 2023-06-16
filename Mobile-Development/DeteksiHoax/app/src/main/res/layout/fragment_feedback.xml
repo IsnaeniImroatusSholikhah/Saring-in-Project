@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Berikan feedback untuk aplikasi ini"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etReview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minLines="5"
+                android:hint="Masukkan Feedback...."
+                android:gravity="top|left"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <RatingBar
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/simpleRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/ratingBarStyle"
+            android:rating="3"
+            android:min="1"
+            android:max="5"
+            android:numStars="5"
+            android:progressTint="@color/yellowie"
+            android:secondaryProgressTint="@color/yellowie"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:stepSize="0.5"
+            android:clickable="true"
+
+            >
+        </RatingBar>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cornerRadius="20dp"
+            android:text="Send"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:paddingVertical="15dp"
+            android:layout_marginHorizontal="20dp"
+            />
+
+    </LinearLayout>
+</LinearLayout>
