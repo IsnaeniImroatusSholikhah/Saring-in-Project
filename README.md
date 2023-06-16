@@ -8,8 +8,8 @@
 
 Welcome to the documentation for Saring-in, the revolutionary app that combats fake news and promotes media literacy. This documentation serves as a comprehensive guide to help you navigate and utilize the features of our app effectively.
 
-# Theme : Education, Learning, and Personal Development
-# Team ID : C23-PS093
+Theme : Education, Learning, and Personal Development
+Team ID : C23-PS093
 
 # Our Team Member :
 1. M339DSX0277 - Winaya Zarkasih - Universitas Sebelas April - Machine Learning 
