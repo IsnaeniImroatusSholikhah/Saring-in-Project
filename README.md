@@ -18,6 +18,6 @@ Team ID : C23-PS093
 3. M320DSY0280 - Isnaeni Imroatus Sholikhah - Universitas PGRI Semarang - Machine Learning 
 4. C306DSX0816 - Eka Jatirasa - Universitas Pembangunan Nasional "Veteran"  Yogyakarta - Cloud Computing 
 5. C306DSX3267 - Virgiawan Arighi - Universitas Pembangunan Nasional "Veteran" Yogyakarta - Cloud Computing 
-6. A320DSY1110 - Khasna Ulya Mutiara Universitas PGRI Semarang Mobile Development 
+6. A320DSY1110 - Khasna Ulya Mutiara - Universitas PGRI Semarang - Mobile Development 
 
 
